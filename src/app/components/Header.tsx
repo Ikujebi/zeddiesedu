@@ -122,30 +122,30 @@ const Header: FC = () => {
             <div className="w-full">
                 <div className="h-10 gap-5 bg-white border-b border-gray-200 flex lg:px-14 xl:px-14 2xl:px-14 md:px-14 justify-around md:justify-between 2xl:justify-between xl:justify-between lg:justify-between">
                     <div className="mt-2">
-                        <span className="text-red-600 font-semibold text-[1.2rem]">
+                        <span className="text-[#faa942] font-semibold text-[1.2rem]">
                             {/* <Link href={"/login"}>Login</Link> */}
                         </span>
                     </div>
                     <div className="flex items-center text-gray-600 text-sm md:gap-1 lg:gap-2 xl:gap-2 2xl:gap-2 gap-2">
-                        <Link href={"https://x.com/wordtabernaclen"} className="md:flex lg:flex 2xl:flex hidden xl:flex md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                        <Link href={"https://x.com/wordtabernaclen"} className="md:flex lg:flex 2xl:flex hidden xl:flex md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-[#faa942] rounded-full flex items-center justify-center">
                             <FaTwitter className="text-white text-md" />
                         </Link>
-                        <Link href={"https://www.instagram.com/wordtabernacleng/"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                        <Link href={"https://www.instagram.com/wordtabernacleng/"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-[#faa942] rounded-full flex items-center justify-center">
                             <FaInstagram className="text-white text-md" />
                         </Link>
-                        <Link href={"https://www.facebook.com/wordtabernacle"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                        <Link href={"https://www.facebook.com/wordtabernacle"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-[#faa942] rounded-full flex items-center justify-center">
                             <FaFacebookF className="text-white text-md" />
                         </Link>
-                        <Link href={"https://www.youtube.com/@wordtabernacleng"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                        <Link href={"https://www.youtube.com/@wordtabernacleng"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-[#faa942] rounded-full flex items-center justify-center">
                             <FaYoutube className="text-white text-md" />
                         </Link>
-                        <Link href={"https://www.tiktok.com/@wordtabernacleng"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 w-6 md:h-8 lg:h-8 xl:h-8 2xl:h-8 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                        <Link href={"https://www.tiktok.com/@wordtabernacleng"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 w-6 md:h-8 lg:h-8 xl:h-8 2xl:h-8 h-6 bg-[#faa942] rounded-full flex items-center justify-center">
                             <FaTiktok className="text-white text-md" />
                         </Link>
-                        <Link href={"https://t.me/+ufId9mRBMlVlMzY8"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                        <Link href={"https://t.me/+ufId9mRBMlVlMzY8"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-[#faa942] rounded-full flex items-center justify-center">
                             <FaTelegram className="text-white text-md" />
                         </Link>
-                        <a href={"mailto:wordtabernaclebc@gmail.com"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                        <a href={"mailto:wordtabernaclebc@gmail.com"} className="md:w-6 lg:w-6 xl:w-6 2xl:w-6 w-6 md:h-6 lg:h-6 xl:h-6 2xl:h-6 h-6 bg-[#faa942] rounded-full flex items-center justify-center">
                             <MdEmail  className="text-white text-md"/>
                             
                         </a>
@@ -157,13 +157,13 @@ const Header: FC = () => {
                             <Link href={"/"}>
                                 <div className="flex gap-1 ">
                                     <Image alt="church logo" width={300} height={100} src={wordlogo} className="h-10 w-10" />
-                                    <span className="font-semibold text-red-600 mt-3 ">WORD TABERNACLE</span>
+                                    <span className="font-semibold text-[#faa942] mt-3 ">ZEDDIES EDU</span>
                                 </div>
                             </Link>
                         </div>
                         <div className="flex items-center gap-5">
                             {navItems.map(renderNavItem)}
-                            <Button className="text-white bg-red-600 hover:!text-red-700 hover:!border-red-500 m-auto rounded-lg" onClick={() => { router.push("/in") }}>LOGIN</Button>
+                            <Button className="text-white bg-[#faa942] hover:!text-red-700 hover:!border-red-500 m-auto rounded-lg" onClick={() => { router.push("/in") }}>LOGIN</Button>
                         </div>
                     </div>
                 </div>
@@ -172,10 +172,10 @@ const Header: FC = () => {
                 <Link href={"/"}>
                     <div className="flex items-center">
                         <Image alt="church logo" width={300} height={100} src={wordlogo} className="h-6 w-6" />
-                        <span className="font-semibold text-red-600">WORD TABERNACLE</span>
+                        <span className="font-semibold text-[#faa942]">ZEDDIES EDU</span>
                     </div>
                 </Link>
-                <Button className="text-white bg-red-600 hover:!text-red-700 hover:!border-red-500 m-auto rounded-lg mr-[1rem]" onClick={toggleMobileMenu}><MdMenu className="h-6 w-6" /></Button>
+                <Button className="text-white bg-[#faa942] hover:!text-red-700 hover:!border-red-500 m-auto rounded-lg mr-[1rem]" onClick={toggleMobileMenu}><MdMenu className="h-6 w-6" /></Button>
             </div>
 
             <div className={`lg:hidden 2xl:hidden xl:hidden md:hidden bg-white  absolute z-100 w-screen h-[100svh]  mt-[10%] top-0 ${mobileMenuVisible ? "left-0"  : "left-[-100%]"} duration-500`}>
@@ -184,12 +184,12 @@ const Header: FC = () => {
                     <Link href={"/"} className="ml-5">
                         <div className="flex items-center ">
                             <Image alt="church logo" width={300} height={100} src={wordlogo} className="h-6 w-6" />
-                            <span className="font-semibold text-red-600">WORD TABERNACLE</span>
+                            <span className="font-semibold text-[#faa942]">ZEDDIES EDU</span>
                         </div>
                     </Link>
                     
                     
-                    <Button className="text-red-600 hover:bg-red-600 mt-5 mr-5 rounded-lg" onClick={toggleMobileMenu}><MdClose className="h-6 w-6" /></Button>
+                    <Button className="text-[#faa942] hover:bg-[#faa942] mt-5 mr-5 rounded-lg" onClick={toggleMobileMenu}><MdClose className="h-6 w-6" /></Button>
                 </div>
                 <div className="p-5">
                     {navItems.map((item, index) => (
